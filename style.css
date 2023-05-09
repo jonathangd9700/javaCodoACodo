@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.logo{
+    width: 90px;
+    height: 60px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+#tickets{
+    color: green;
+}
+
+span{
+    color: white;
+}
+
+.imgBanner{
+    width: 200px;
+}
