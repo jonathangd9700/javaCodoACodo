@@ -10,6 +10,22 @@ body{
     height: 60px;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(1, 72, 94);
+}
+
+footer a{
+    margin-left: 5px;
+}
+
 .navbar{
     background-color: rgba(0, 0, 0, 0.788);
 }
@@ -29,3 +45,81 @@ span{
 .imgBanner{
     width: 200px;
 }
+
+.cardTitleBelowImageContainer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row;
+}
+
+.cardTitleBelowImage{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    width: fit-content;
+
+}
+
+.card {
+    height: 100%;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #343a40;
+    border-color: #fff;
+    color: #fff;
+    width: 300px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #343a40;
+  }
+  
+  .formContainer{
+    padding-top: 50px;
+  }
+
+  .btnEnviarForm{
+    width: 100%;
+    border-width: 0px;
+    background-color: rgb(142, 196, 62);
+  }
+
+   textarea::placeholder{
+    font-size: 1.5rem;
+  }
+  
+  .textUp{
+    font-size: smaller;
+    font-weight: lighter;
+  }
+
+  .textDown{
+    font-weight: bolder;
+  }
+
+  .subtitleForm{
+    font-weight: normal;
+  }

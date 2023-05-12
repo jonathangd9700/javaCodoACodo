@@ -34,15 +34,26 @@
     <main>
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
-          <h3>HOLA PROBANDO TEXTO EN CAROUSEL</h3>
           <div class="carousel-item active">
             <img src="images/ba1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Título de la imagen 1</h5>
+              <p>Descripción de la imagen 1</p>
+            </div>
           </div>
           <div class="carousel-item">
             <img src="images/ba2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none">
+              <h5>Título de la imagen 2</h5>
+              <p>Descripción de la imagen 2</p>
+            </div>
           </div>
           <div class="carousel-item">
             <img src="images/hawaii.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none">
+              <h5>Título de la imagen 2</h5>
+              <p>Descripción de la imagen 2</p>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -54,10 +65,138 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <!--------------------------------------------------CARDS-->
+      <div class="container my-5">
+        <h2 class="text-center">ORADORES</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/steve.jpg" class="card-img-top" alt="Steve Jobs">
+              <div class="card-body">
+                <ul class="cardTitleBelowImageContainer">
+                  <li class="bg-warning cardTitleBelowImage text-dark">JavaScript</li>
+                  <li class="bg-primary cardTitleBelowImage">React</li>
+                </ul>
+                <h5 class="card-title">Steve Jobs</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum accusamus ducimus eaque odit porro, necessitatibus nisi autem minus cupiditate magnam inventore aut fugiat voluptatem suscipit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/bill.jpg" class="card-img-top" alt="Bill Gates">
+              <div class="card-body">
+                <ul class="cardTitleBelowImageContainer">
+                  <li class="bg-warning cardTitleBelowImage text-dark">JavaScript</li>
+                  <li class="bg-primary cardTitleBelowImage">React</li>
+                </ul>
+                <h5 class="card-title">Bill Gates</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, eum odio hic corrupti exercitationem excepturi iste adipisci ullam, inventore earum perspiciatis id! Sed iure reprehenderit eaque libero voluptates dolorem labore!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/ada.jpeg" class="card-img-top" alt="HTML">
+              <div class="card-body">
+                <ul class="cardTitleBelowImageContainer">
+                  <li class="bg-danger cardTitleBelowImage">Negocios</li>
+                  <li class="bg-secondary cardTitleBelowImage">Startups</li>
+                </ul>
+                <h5 class="card-title">Ada Lovelace</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus quod consequatur, molestias dolores pariatur reprehenderit nesciunt impedit ad possimus quos repudiandae libero harum optio laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----IMAGEN Y TEXTO-->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 h-100">
+            <img src="images/honolulu.jpg" alt="Imagen Paisaje" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <div class="card bg-dark text-white">
+              <div class="card-body">
+                <h2 class="card-title">Bs As - Octubre</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aliquam magna eu lorem mollis, non gravida turpis iaculis. Sed dapibus sodales nulla. Fusce dignissim, dolor vel feugiat faucibus, lectus massa eleifend eros, quis congue lacus turpis quis dolor. Fusce elementum risus nec mauris mollis bibendum. Nulla facilisi. Duis non ultrices elit. Nam feugiat, elit at aliquet feugiat, felis nunc varius felis, sit amet scelerisque libero magna id ex. Nunc malesuada risus vel odio consectetur, eget euismod sapien congue.</p>
+                <a href="#" class="btn btn-primary rounded-0">Conocer más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----Formulario-->
+<div class="container formContainer">
+  <div class="formTitle">
+    <h2 class="text-center textUp">CONVIÉRTETE EN UN ORADOR</h2>
+    <h2 class="text-center textDown">ORADOR</h2>
+  </div>
+
+  <h6 class="text-center subtitleForm">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar</h6>
+  <form class="mx-auto">
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Nombre">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Apellido">
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="cajaComentario"></label>
+      <textarea class="form-control" id="cajaComentario" rows="5" placeholder="Sobre qué quieres hablar?"></textarea>
+      <h6 class="form-text">Recuerda incluir un título para tu charla.</h6>
+    </div>
+    <button type="submit" class="btn btn-success btn-block mt-3 btnEnviarForm">Enviar</button>
+  </form>
+</div>
+      
     </main>
     <footer>
-
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+            <a href="#">Preguntas frecuentes</a>
+          </div>
+          <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+            <a href="#">Contáctanos</a>
+          </div>
+          <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+            <a href="#">Prensa</a>
+          </div>
+          <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+            <a href="#">Conferencias</a>
+          </div>
+          <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+            <a href="#">Términos y condiciones</a>
+          </div>
+          <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+            <a href="#">Privacidad</a>
+          </div>
+          <div class="col-12 col-lg-auto mb-3 mb-lg-0">
+            <a href="#">Estudiantes</a>
+          </div>
+        </div>
+      </div>
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
