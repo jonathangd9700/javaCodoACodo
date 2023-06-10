@@ -6,8 +6,8 @@ body{
 }
 
 .logo{
-    width: 90px;
-    height: 60px;
+    width: 125px;
+    height: 80px;
 }
 
 a {
@@ -30,8 +30,18 @@ footer a{
     background-color: rgba(0, 0, 0, 0.788);
 }
 
+nav h1{
+    color: #fff;
+    font-weight: normal;
+}
+
 .nav-link{
     color: aliceblue;
+
+}
+
+.navbarTextItems{
+    justify-content: space-evenly;
 }
 
 #tickets{
@@ -88,7 +98,6 @@ span{
     background-color: #343a40;
     border-color: #fff;
     color: #fff;
-    width: 300px;
   }
   
   .btn-primary:hover {
@@ -123,3 +132,51 @@ span{
   .subtitleForm{
     font-weight: normal;
   }
+
+  @media screen and (min-width: 1024px){
+    .nav-link{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .btn-primary{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .nav-link{
+        font-size: 1.3rem;
+    }
+}
+
+/* TICKETS */
+
+.card-bgcolor-est{
+  background-color: dodgerblue;
+}
+.card-bgcolor-trainee{
+  background-color: rgb(16, 231, 231);
+}
+.card-bgcolor-jr{
+  background-color: rgb(255, 184, 30);
+}
+
+.card-body-est{
+  border-style: solid;
+  border-width: 1px;
+  border-color: dodgerblue;
+}
+
+.card-body-trainee{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(16, 231, 231);
+}
+
+.card-body-jr{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 184, 30);;
+}
