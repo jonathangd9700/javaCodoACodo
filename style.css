@@ -180,3 +180,7 @@ span{
   border-width: 1px;
   border-color: rgb(255, 184, 30);;
 }
+
+.descuentoInfo{
+  color: darkgray;
+}

@@ -45,8 +45,8 @@
                       </div>
                       <div class="card-body bg-white card-body-est text-center">
                         <p class="card-text">Tienen un descuento</p>
-                        <p class="card-text discount-percentage fs-1">80%</p>
-                        <p class="card-text discount-info">*Presentar documentación</p>
+                        <p class="card-text fs-1">80%</p>
+                        <p class="card-text descuentoInfo">*Presentar documentación</p>
                       </div>
                     </div>
                   </div>
@@ -57,8 +57,9 @@
                       </div>
                       <div class="card-body bg-white card-body-trainee text-center">
                         <p class="card-text">Tienen un descuento</p>
-                        <p class="card-text discount-percentage fs-1">80%</p>
-                        <p class="card-text discount-info">*Presentar documentación</p>
+                        <p class="card-text  fs-1">50%</p>
+                        <p class="card-text descuentoInfo">*Presentar documentación</p>
+
                       </div>
                     </div>
                   </div>
@@ -69,8 +70,8 @@
                       </div>
                       <div class="card-body bg-white card-body-jr text-center">
                         <p class="card-text">Tienen un descuento</p>
-                        <p class="card-text discount-percentage fs-1">80%</p>
-                        <p class="card-text discount-info">*Presentar documentación</p>
+                        <p class="card-text fs-1">15%</p>
+                        <p class="card-text descuentoInfo">*Presentar documentación</p>
                       </div>
                     </div>
                   </div>
@@ -81,27 +82,28 @@
 
   <form class="row g-3">
     <div class="col-md-6">
-      <label for="inputNombre" class="form-label">Nombre</label>
-      <input type="text" class="form-control" id="inputNombre">
+      <label for="inputNombre" class="form-label"></label>
+      <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
     </div>
     <div class="col-md-6">
-      <label for="inputApellido" class="form-label">Apellido</label>
-      <input type="text" class="form-control" id="inputApellido">
+      <label for="inputApellido" class="form-label"></label>
+      <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
     </div>
     <div class="col-12">
-      <label for="inputEmail" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail">
+      <label for="inputEmail" class="form-label"></label>
+      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
     </div>
     <div class="col-md-6">
       <label for="inputCantidad" class="form-label">Cantidad</label>
       <input type="number" class="form-control" id="inputCantidad">
     </div>
     <div class="col-md-6">
-      <label for="inputOpciones" class="form-label">Seleccione</label>
+      <label for="inputOpciones" class="form-label">Categoría</label>
       <select class="form-control" id="inputOpciones">
-        <option value="opcion1">Opción 1</option>
-        <option value="opcion2">Opción 2</option>
-        <option value="opcion3">Opción 3</option>
+        <option value="sinCategoria">Sin categoría</option>
+        <option value="estudiante">Estudiante</option>
+        <option value="trainee">Trainee</option>
+        <option value="junior">Junior</option>
       </select>
     </div>
     <div class="col-6">
