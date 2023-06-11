@@ -78,20 +78,20 @@
       </div>
 
       <h3 class="text-center mt-5">VENTA</h3>
-  <p class="text-center font-weight-bold">VALOR DEL TICKET $200</p>
+  <p class="text-center font-weight-bold">VALOR DEL TICKET: $2,000. -</p>
 
   <form class="row g-3">
     <div class="col-md-6">
       <label for="inputNombre" class="form-label"></label>
-      <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+      <input type="text" class="form-control" id="inputNombre" placeholder="Nombre" required>
     </div>
     <div class="col-md-6">
       <label for="inputApellido" class="form-label"></label>
-      <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+      <input type="text" class="form-control" id="inputApellido" placeholder="Apellido" required>
     </div>
     <div class="col-12">
       <label for="inputEmail" class="form-label"></label>
-      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
     </div>
     <div class="col-md-6">
       <label for="inputCantidad" class="form-label">Cantidad</label>
@@ -106,11 +106,14 @@
         <option value="junior">Junior</option>
       </select>
     </div>
+    <div class="col-12" id="divTotalTickets">
+      
+    </div>
     <div class="col-6">
-        <button type="reset" class="btn btn-success btn-block w-100">Borrar</button>
+        <button type="reset" class="btn btn-success btn-block w-100" id="btnBorrar">Borrar</button>
       </div>
       <div class="col-6">
-        <button type="submit" class="btn btn-success btn-block w-100">Resumen</button>
+        <button type="submit" class="btn btn-success btn-block w-100" id="btnSubmit">Resumen</button>
       </div>
     </form>
   </div>
