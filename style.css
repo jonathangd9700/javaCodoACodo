@@ -184,3 +184,12 @@ span{
 .descuentoInfo{
   color: darkgray;
 }
+
+.muestraValorTickets{
+  width: fit-content;
+  margin: auto;
+  color: white;
+  background-color: rgba(78, 76, 219, 0.644);
+  padding: 5px;
+  border-radius: 30px;
+}
